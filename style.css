@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav_wrapper {
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-list li a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: azure;
+    text-align: right;
+    justify-content: right;
+    flex-direction: row;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.nav-list li a:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+
+nav {
+    align-self: end;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: all .5s ease 0s;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+header {
+    background-color: #576a79;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+
+}
+
+.Information {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.Infobox {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding-bottom: 1rem;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #576a79, steelblue);
+}
+
+.About {
+    Display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.About img {
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+.About div {
+    margin-top: 4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+.About p {
+    font-size: 1.5rem;
+}
+
+.portfolio {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.portfolio div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.portfolio div li {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.portfolio div p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#largercard {
+    flex-direction: row;
+    width: 100%;
+    margin: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+
+}
+
+#largercard img {
+    border-radius: 10%;
+    width: 55%;
+    /* content: url("https://pdangelo1988.wixsite.com/mysite"); */
+}
+
+#largercard p {
+    text-align: bottom;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.smallercards img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.smallercards ul {
+    font-size: 50px;
+}
+
+footer {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 2rem;
+    text-align: center;
+    background-color: steelblue;
+    margin: auto;
+
+}
+
+footer p {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.contactme {
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightslategrey;
+    padding: .1rem;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .About {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
